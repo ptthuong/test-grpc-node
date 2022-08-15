@@ -1,0 +1,13 @@
+{
+  "name": "test-grpc-node",
+  "version": "1.0.0",
+  "description": "example to test gRPC service by mocha",
+  "scripts": {
+    "test": "./noden_modules/.bin/mocha"
+  },
+  "devDependencies": {
+    "@grpc/grpc-js": "^1.6.8",
+    "@grpc/proto-loader": "^0.7.0",
+    "mocha": "^10.0.0"
+  }
+}
